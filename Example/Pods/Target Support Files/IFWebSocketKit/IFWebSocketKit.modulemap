@@ -1,0 +1,6 @@
+framework module IFWebSocketKit {
+  umbrella header "IFWebSocketKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
