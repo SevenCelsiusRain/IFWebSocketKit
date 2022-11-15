@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'IFWebSocketKit_Example' do
+  pod 'Toast', '~> 4.0.0'
+  pod 'Masonry'
+  pod 'IFWebSocketKit', :path => '../'
+
+  target 'IFWebSocketKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
