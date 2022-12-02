@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - IFWebSocketKit (0.1.0):
+  - IFWebSocketKit (0.0.1):
     - AFNetworking
     - SocketRocket
   - Masonry (1.1.0)
@@ -22,28 +22,27 @@ PODS:
   - Toast (4.0.0)
 
 DEPENDENCIES:
-  - IFWebSocketKit (from `../`)
+  - IFWebSocketKit
   - Masonry
   - Toast (~> 4.0.0)
 
 SPEC REPOS:
-  trunk:
+  http://10.255.35.174/iov-ios/IFSpecs.git:
+    - IFWebSocketKit
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-    - Masonry
     - SocketRocket
+  trunk:
+    - Masonry
     - Toast
-
-EXTERNAL SOURCES:
-  IFWebSocketKit:
-    :path: "../"
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  IFWebSocketKit: 9e82e09c5bf66ed7cec4ef9caebe512e8dd6e712
+  IFWebSocketKit: cad5b0f3c1ca91915f98b1461f7302965b2d0669
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: e53c7ff2f6e6770ba1fbd62c263ef909b9952ff3
+PODFILE CHECKSUM: 0439162b1d0ec5d38730eff9f1f14ec9bf2f73ef
 
 COCOAPODS: 1.11.3
